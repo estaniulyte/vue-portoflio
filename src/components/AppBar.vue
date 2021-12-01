@@ -4,13 +4,13 @@
         color="appBar"
     >
         <v-spacer />
-        <v-btn text color="white" href="/">
+        <v-btn text color="white" href="/#/">
             Main
         </v-btn>
-        <v-btn text color="white" href="/experience">
+        <v-btn text color="white" href="/#/experience">
             experience at unity
         </v-btn>
-        <v-btn text color="white" href="/cv">
+        <v-btn text color="white" href="/#/cv">
             cv
         </v-btn>
         <v-menu offset-y>
@@ -22,14 +22,14 @@
         </template>
       <v-list>
         <v-list-item>
-            <v-btn text href="/hobbies/photography">Photography</v-btn>
+            <v-btn text href="/#/hobbies/photography">Photography</v-btn>
         </v-list-item>
         <v-list-item>
-            <v-btn text href="/hobbies/illustrations"> Illustrations</v-btn>
+            <v-btn text href="/#/hobbies/graphicdesign"> Graphic design</v-btn>
         </v-list-item>
     </v-list>
         </v-menu>
-        <v-btn text color="white" href="/projects">
+        <v-btn text color="white" href="/#/projects">
             side projects
         </v-btn>
     </v-app-bar>
@@ -39,7 +39,7 @@
 
 export default {
   name: 'AppBar',
-  data: function() {
-  }
+  data: () => ({
+  }),
 }
 </script>

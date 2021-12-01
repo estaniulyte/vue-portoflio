@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <illustrations-gallery />
-    </div>
+  <div>
+    <illustrations-gallery />
+  </div>
 </template>
 
 <script>

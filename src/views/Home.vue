@@ -1,14 +1,11 @@
 <template>
   <div>
     <v-container>
-      Main page
-      <div class="d-flex justify-end">
-        <v-img
+        <!-- <v-img
           style="border-radius: 50%;"
           max-width="250"
           src="@/assets/profile_pic.jpeg"
-        />
-      </div>
+        /> -->
     </v-container>
   </div>
 </template>

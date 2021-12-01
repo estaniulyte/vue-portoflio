@@ -1,11 +1,14 @@
 <template>
-    <v-container>
-        Experience
-    </v-container>
+  <v-container>
+    <tooling-section />
+  </v-container>
 </template>
 
 <script>
+import ToolingSection from '@/components/ToolingSection';
+
 export default {
+  components: { ToolingSection },
   name: 'ExperienceAtUnity',
 }
 </script>

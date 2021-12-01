@@ -11,23 +11,18 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
     path: '/hobbies/photography',
     name: 'Photography',
     component: Photography
   },
   {
-    path: '/hobbies/illustrations',
-    name: 'Illustrations',
+    path: '/hobbies/graphicdesign',
+    name: 'Graphics Design',
     component: Illustrations
   },
   {
     path: '/experience',
-    name: 'Experience at Unity',
+    name: 'Experience',
     component: Experience
   },
   {
@@ -39,12 +34,15 @@ const routes = [
     path: '/cv',
     name: 'CV',
     component: CV
+  },
+  {
+    path: '/',
+    name: 'Home',
+    component: Home
   }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
   routes
 })
 

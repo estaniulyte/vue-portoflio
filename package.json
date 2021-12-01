@@ -1,5 +1,6 @@
 {
-  "name": "portfolio",
+  "name": "Portfolio",
+  "description": "Portfolio page of Evelina Staniulyte",
   "version": "0.1.0",
   "private": true,
   "scripts": {
